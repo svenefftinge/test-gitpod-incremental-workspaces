@@ -1,3 +1,3 @@
 tasks:
   - init: sleep 240 && echo "$(date) prebuild commit $(git rev-parse HEAD)" >> /workspace/.init
-    command: cat /workspace/init && echo "$(date) current commit $(git rev-parse HEAD)"
+    command: cat /workspace/.init && echo "$(date) current commit $(git rev-parse HEAD)"
