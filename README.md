@@ -1,3 +1,3 @@
 # Hello
 
-Howdy howdy
+Howdy
